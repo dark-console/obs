@@ -185,7 +185,7 @@
 
     --button_bg: #0d1a32;
     --button_bg_hover: #152e55;
-    --button_bg_checked: var(--primary);
+    --button_bg_checked: var(--primary_lighter);
     --button_bg_down: var(--grey7);
     --button_bg_disabled: #04070e;
 
@@ -1386,14 +1386,15 @@ QPushButton::flat {
 }
 
 QPushButton:checked {
+    color: var(--bg_window);
     background-color: var(--button_bg_checked);
     border-color: var(--button_bg_checked);
 }
 
 QPushButton:checked:hover,
 QPushButton:checked:focus {
-    background-color: var(--button_bg_hover);
-    border-color: var(--button_border_hover);
+    background-color: var(--primary_lighter);
+    border-color: var(--primary_lighter);
 }
 
 QPushButton:pressed,
