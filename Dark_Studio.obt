@@ -1567,6 +1567,30 @@ QSlider::handle:disabled {
     padding: 0px;
 }
 
+/* Mixer source name button. VolumeName is a QAbstractButton, not a QPushButton, so the button rules above do not reach it */
+
+VolumeName {
+    background-color: var(--button_bg);
+    border: var(--highlight_width) solid var(--button_border);
+    border-radius: var(--border_radius);
+    padding: var(--padding_base) var(--padding_large);
+    margin: 0px;
+}
+
+VolumeName:hover {
+    background-color: var(--button_bg_hover);
+    border-color: var(--button_border_hover);
+}
+
+VolumeName:pressed {
+    background-color: var(--button_bg_down);
+    border-color: var(--button_border);
+}
+
+VolumeName:focus {
+    border-color: var(--button_border_focus);
+}
+
 VolControl {
     background: var(--bg_base);
 }
