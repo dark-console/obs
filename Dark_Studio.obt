@@ -484,7 +484,7 @@ QWidget {
     selection-background-color: var(--primary);
     selection-color: var(--text);
     font-size: var(--font_base);
-    font-family: 'IosevkaTerm Nerd Font Propo';}
+    font-family: 'Glass TTY VT220';}
 
 QWidget:disabled {
     color: var(--text_disabled);
