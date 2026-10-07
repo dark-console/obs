@@ -1,6 +1,6 @@
 @OBSThemeMeta {
-    name: 'Dark Studio';
-    id: 'com.obsproject.Dark_Studio';
+    name: 'Dark Console';
+    id: 'com.obsproject.Dark_Console';
     author: 'barnacker';
     dark: 'true';
 }
@@ -387,93 +387,93 @@
 /* Icon Overrides */
 
 .icon-plus {
-    qproperty-icon: url(theme:Dark_Studio/plus.svg);
+    qproperty-icon: url(theme:Dark_Console/plus.svg);
 }
 
 .icon-minus {
-    qproperty-icon: url(theme:Dark_Studio/minus.svg);
+    qproperty-icon: url(theme:Dark_Console/minus.svg);
 }
 
 .icon-trash {
-    qproperty-icon: url(theme:Dark_Studio/trash.svg);
+    qproperty-icon: url(theme:Dark_Console/trash.svg);
 }
 
 .icon-clear {
-    qproperty-icon: url(theme:Dark_Studio/entry-clear.svg);
+    qproperty-icon: url(theme:Dark_Console/entry-clear.svg);
 }
 
 .icon-gear {
-    qproperty-icon: url(theme:Dark_Studio/settings/general.svg);
+    qproperty-icon: url(theme:Dark_Console/settings/general.svg);
 }
 
 .icon-dots-vert {
-    qproperty-icon: url(theme:Dark_Studio/dots-vert.svg);
+    qproperty-icon: url(theme:Dark_Console/dots-vert.svg);
 }
 
 .icon-refresh {
-    qproperty-icon: url(theme:Dark_Studio/refresh.svg);
+    qproperty-icon: url(theme:Dark_Console/refresh.svg);
 }
 
 .icon-cogs {
-    qproperty-icon: url(theme:Dark_Studio/cogs.svg);
+    qproperty-icon: url(theme:Dark_Console/cogs.svg);
 }
 
 .icon-touch {
-    qproperty-icon: url(theme:Dark_Studio/interact.svg);
+    qproperty-icon: url(theme:Dark_Console/interact.svg);
 }
 
 .icon-up {
-    qproperty-icon: url(theme:Dark_Studio/up.svg);
+    qproperty-icon: url(theme:Dark_Console/up.svg);
 }
 
 .icon-down {
-    qproperty-icon: url(theme:Dark_Studio/down.svg);
+    qproperty-icon: url(theme:Dark_Console/down.svg);
 }
 
 .icon-pause {
-    qproperty-icon: url(theme:Dark_Studio/media-pause.svg);
+    qproperty-icon: url(theme:Dark_Console/media-pause.svg);
 }
 
 .icon-filter {
-    qproperty-icon: url(theme:Dark_Studio/filter.svg);
+    qproperty-icon: url(theme:Dark_Console/filter.svg);
 }
 
 .icon-revert {
-    qproperty-icon: url(theme:Dark_Studio/revert.svg);
+    qproperty-icon: url(theme:Dark_Console/revert.svg);
 }
 
 .icon-save {
-    qproperty-icon: url(theme:Dark_Studio/save.svg);
+    qproperty-icon: url(theme:Dark_Console/save.svg);
 }
 
 .icon-close {
-    qproperty-icon: url(theme:Dark_Studio/close.svg);
+    qproperty-icon: url(theme:Dark_Console/close.svg);
 }
 
 /* Media icons */
 
 .icon-media-play {
-    qproperty-icon: url(theme:Dark_Studio/media/media_play.svg);
+    qproperty-icon: url(theme:Dark_Console/media/media_play.svg);
 }
 
 .icon-media-pause {
-    qproperty-icon: url(theme:Dark_Studio/media/media_pause.svg);
+    qproperty-icon: url(theme:Dark_Console/media/media_pause.svg);
 }
 
 .icon-media-restart {
-    qproperty-icon: url(theme:Dark_Studio/media/media_restart.svg);
+    qproperty-icon: url(theme:Dark_Console/media/media_restart.svg);
 }
 
 .icon-media-stop {
-    qproperty-icon: url(theme:Dark_Studio/media/media_stop.svg);
+    qproperty-icon: url(theme:Dark_Console/media/media_stop.svg);
 }
 
 .icon-media-next {
-    qproperty-icon: url(theme:Dark_Studio/media/media_next.svg);
+    qproperty-icon: url(theme:Dark_Console/media/media_next.svg);
 }
 
 .icon-media-prev {
-    qproperty-icon: url(theme:Dark_Studio/media/media_previous.svg);
+    qproperty-icon: url(theme:Dark_Console/media/media_previous.svg);
 }
 
 /* Default widget style, we override only what is needed. */
@@ -484,7 +484,7 @@ QWidget {
     selection-background-color: var(--primary);
     selection-color: var(--text);
     font-size: var(--font_base);
-    font-family: 'Glass TTY VT220';}
+    font-family: 'VT220 Nerd Font Mono', monospace;}
 
 QWidget:disabled {
     color: var(--text_disabled);
@@ -600,7 +600,7 @@ QMenu::item:disabled {
 }
 
 QMenu::right-arrow {
-    image: url(theme:Dark_Studio/expand.svg);
+    image: url(theme:Dark_Console/expand.svg);
 }
 
 /* Top Menu Bar Items */
@@ -796,8 +796,8 @@ QDockWidget {
     font-size: var(--font_base);
     font-weight: bold;
 
-    titlebar-close-icon: url(theme:Dark_Studio/close.svg);
-    titlebar-normal-icon: url(theme:Dark_Studio/popout.svg);
+    titlebar-close-icon: url(theme:Dark_Console/close.svg);
+    titlebar-normal-icon: url(theme:Dark_Console/popout.svg);
 }
 
 QDockWidget::title {
@@ -989,12 +989,12 @@ OBSDock QScrollBar:vertical {
 }
 
 QPushButton#sourcePropertiesButton {
-    qproperty-icon: url(theme:Dark_Studio/settings/general.svg);
+    qproperty-icon: url(theme:Dark_Console/settings/general.svg);
     icon-size: var(--icon_base);
 }
 
 QPushButton#sourceFiltersButton {
-    qproperty-icon: url(theme:Dark_Studio/filter.svg);
+    qproperty-icon: url(theme:Dark_Console/filter.svg);
     icon-size: var(--icon_base);
 }
 
@@ -1014,7 +1014,7 @@ QToolBarExtension {
     padding: 4px 0px;
     margin-left: 0px;
 
-    qproperty-icon: url(theme:Dark_Studio/dots-vert.svg);
+    qproperty-icon: url(theme:Dark_Console/dots-vert.svg);
 }
 
 
@@ -1143,7 +1143,7 @@ QDateTimeEdit::drop-down {
 QComboBox::down-arrow,
 QDateTimeEdit::down-arrow {
     qproperty-alignment: AlignTop;
-    image: url(theme:Dark_Studio/collapse.svg);
+    image: url(theme:Dark_Console/collapse.svg);
     width: 100%;
 }
 
@@ -1168,7 +1168,7 @@ QDateTimeEdit::drop-down:editable {
 QComboBox::down-arrow:editable,
 QDateTimeEdit::down-arrow:editable {
     qproperty-alignment: AlignTop;
-    image: url(theme:Dark_Studio/collapse.svg);
+    image: url(theme:Dark_Console/collapse.svg);
     width: 100%;
 }
 
@@ -1296,14 +1296,14 @@ QDoubleSpinBox::down-button:off {
 
 QSpinBox::up-arrow,
 QDoubleSpinBox::up-arrow {
-    image: url(theme:Dark_Studio/up.svg);
+    image: url(theme:Dark_Console/up.svg);
     width: 100%;
     margin: 2px;
 }
 
 QSpinBox::down-arrow,
 QDoubleSpinBox::down-arrow {
-    image: url(theme:Dark_Studio/down.svg);
+    image: url(theme:Dark_Console/down.svg);
     width: 100%;
     padding: 2px;
 }
@@ -1409,7 +1409,7 @@ QPushButton:disabled {
 }
 
 QPushButton::menu-indicator {
-    image: url(theme:Dark_Studio/down.svg);
+    image: url(theme:Dark_Console/down.svg);
     subcontrol-position: right;
     subcontrol-origin: padding;
     width: 25px;
@@ -1753,15 +1753,15 @@ OBSBasicFilters #widget_2 QPushButton {
 /* Settings Icons */
 
 OBSBasicSettings {
-    qproperty-generalIcon: url(theme:Dark_Studio/settings/general.svg);
-    qproperty-appearanceIcon: url(theme:Dark_Studio/settings/appearance.svg);
-    qproperty-streamIcon: url(theme:Dark_Studio/settings/stream.svg);
-    qproperty-outputIcon: url(theme:Dark_Studio/settings/output.svg);
-    qproperty-audioIcon: url(theme:Dark_Studio/settings/audio.svg);
-    qproperty-videoIcon: url(theme:Dark_Studio/settings/video.svg);
-    qproperty-hotkeysIcon: url(theme:Dark_Studio/settings/hotkeys.svg);
-    qproperty-accessibilityIcon: url(theme:Dark_Studio/settings/accessibility.svg);
-    qproperty-advancedIcon: url(theme:Dark_Studio/settings/advanced.svg);
+    qproperty-generalIcon: url(theme:Dark_Console/settings/general.svg);
+    qproperty-appearanceIcon: url(theme:Dark_Console/settings/appearance.svg);
+    qproperty-streamIcon: url(theme:Dark_Console/settings/stream.svg);
+    qproperty-outputIcon: url(theme:Dark_Console/settings/output.svg);
+    qproperty-audioIcon: url(theme:Dark_Console/settings/audio.svg);
+    qproperty-videoIcon: url(theme:Dark_Console/settings/video.svg);
+    qproperty-hotkeysIcon: url(theme:Dark_Console/settings/hotkeys.svg);
+    qproperty-accessibilityIcon: url(theme:Dark_Console/settings/accessibility.svg);
+    qproperty-advancedIcon: url(theme:Dark_Console/settings/advanced.svg);
 }
 
 /* Checkboxes */
@@ -1781,38 +1781,38 @@ QGroupBox::indicator {
 QCheckBox::indicator:unchecked,
 QGroupBox::indicator:unchecked,
 QTableView::indicator:unchecked {
-    image: url(theme:Dark_Studio/checkbox_unchecked.svg);
+    image: url(theme:Dark_Console/checkbox_unchecked.svg);
 }
 
 QCheckBox::indicator:unchecked:hover,
 QGroupBox::indicator:unchecked:hover,
 QTableView::indicator:unchecked:hover {
     border: none;
-    image: url(theme:Dark_Studio/checkbox_unchecked_focus.svg);
+    image: url(theme:Dark_Console/checkbox_unchecked_focus.svg);
 }
 
 QCheckBox::indicator:checked,
 QGroupBox::indicator:checked,
 QTableView::indicator:checked {
-    image: url(theme:Dark_Studio/checkbox_checked.svg);
+    image: url(theme:Dark_Console/checkbox_checked.svg);
 }
 
 QCheckBox::indicator:checked:hover,
 QGroupBox::indicator:checked:hover,
 QTableView::indicator:checked:hover {
-    image: url(theme:Dark_Studio/checkbox_checked_focus.svg);
+    image: url(theme:Dark_Console/checkbox_checked_focus.svg);
 }
 
 QCheckBox::indicator:checked:disabled,
 QGroupBox::indicator:checked:disabled,
 QTableView::indicator:checked:disabled {
-    image: url(theme:Dark_Studio/checkbox_checked_disabled.svg);
+    image: url(theme:Dark_Console/checkbox_checked_disabled.svg);
 }
 
 QCheckBox::indicator:unchecked:disabled,
 QGroupBox::indicator:unchecked:disabled,
 QTableView::indicator:unchecked:disabled {
-    image: url(theme:Dark_Studio/checkbox_unchecked_disabled.svg);
+    image: url(theme:Dark_Console/checkbox_unchecked_disabled.svg);
 }
 
 /* Icon Checkboxes */
@@ -1841,7 +1841,7 @@ QTableView::indicator:unchecked:disabled {
 
 .indicator-lock::indicator:checked,
 .indicator-lock::indicator:checked:hover {
-    image: url(theme:Dark_Studio/locked.svg);
+    image: url(theme:Dark_Console/locked.svg);
 }
 
 .indicator-lock::indicator:unchecked,
@@ -1853,7 +1853,7 @@ QTableView::indicator:unchecked:disabled {
 
 .indicator-visibility::indicator:checked,
 .indicator-visibility::indicator:checked:hover {
-    image: url(theme:Dark_Studio/visible.svg);
+    image: url(theme:Dark_Console/visible.svg);
 }
 
 .indicator-visibility::indicator:unchecked,
@@ -1895,39 +1895,39 @@ QTableView::indicator:unchecked:disabled {
 }
 
 .indicator-mute::indicator:checked {
-    image: url(theme:Dark_Studio/mute.svg);
+    image: url(theme:Dark_Console/mute.svg);
 }
 
 .indicator-mute::indicator:indeterminate {
-    image: url(theme:Dark_Studio/unassigned.svg);
+    image: url(theme:Dark_Console/unassigned.svg);
 }
 
 .indicator-mute::indicator:unchecked {
-    image: url(theme:Dark_Studio/settings/audio.svg);
+    image: url(theme:Dark_Console/settings/audio.svg);
 }
 
 .indicator-mute::indicator:unchecked:hover {
-    image: url(theme:Dark_Studio/settings/audio.svg);
+    image: url(theme:Dark_Console/settings/audio.svg);
 }
 
 .indicator-mute::indicator:unchecked:focus {
-    image: url(theme:Dark_Studio/settings/audio.svg);
+    image: url(theme:Dark_Console/settings/audio.svg);
 }
 
 .indicator-mute::indicator:checked:hover {
-    image: url(theme:Dark_Studio/mute.svg);
+    image: url(theme:Dark_Console/mute.svg);
 }
 
 .indicator-mute::indicator:checked:focus {
-    image: url(theme:Dark_Studio/mute.svg);
+    image: url(theme:Dark_Console/mute.svg);
 }
 
 .indicator-mute::indicator:checked:disabled {
-    image: url(theme:Dark_Studio/mute.svg);
+    image: url(theme:Dark_Console/mute.svg);
 }
 
 .indicator-mute::indicator:unchecked:disabled {
-    image: url(theme:Dark_Studio/settings/audio.svg);
+    image: url(theme:Dark_Console/settings/audio.svg);
 }
 
 #hotkeyFilterReset {
@@ -1955,12 +1955,12 @@ OBSHotkeyWidget QPushButton {
 
 .indicator-expand::indicator:checked,
 .indicator-expand::indicator:checked:hover {
-    image: url(theme:Dark_Studio/expand.svg);
+    image: url(theme:Dark_Console/expand.svg);
 }
 
 .indicator-expand::indicator:unchecked,
 .indicator-expand::indicator:unchecked:hover {
-    image: url(theme:Dark_Studio/collapse.svg);
+    image: url(theme:Dark_Console/collapse.svg);
 }
 
 /* Source Icons */
@@ -1970,22 +1970,22 @@ OBSHotkeyWidget QPushButton {
 }
 
 OBSBasic {
-    qproperty-imageIcon: url(theme:Dark_Studio/sources/image.svg);
-    qproperty-colorIcon: url(theme:Dark_Studio/sources/brush.svg);
-    qproperty-slideshowIcon: url(theme:Dark_Studio/sources/slideshow.svg);
-    qproperty-audioInputIcon: url(theme:Dark_Studio/sources/microphone.svg);
-    qproperty-audioOutputIcon: url(theme:Dark_Studio/settings/audio.svg);
-    qproperty-desktopCapIcon: url(theme:Dark_Studio/settings/video.svg);
-    qproperty-windowCapIcon: url(theme:Dark_Studio/sources/window.svg);
-    qproperty-gameCapIcon: url(theme:Dark_Studio/sources/gamepad.svg);
-    qproperty-cameraIcon: url(theme:Dark_Studio/sources/camera.svg);
-    qproperty-textIcon: url(theme:Dark_Studio/sources/text.svg);
-    qproperty-mediaIcon: url(theme:Dark_Studio/sources/media.svg);
-    qproperty-browserIcon: url(theme:Dark_Studio/sources/globe.svg);
-    qproperty-groupIcon: url(theme:Dark_Studio/sources/group.svg);
-    qproperty-sceneIcon: url(theme:Dark_Studio/sources/scene.svg);
-    qproperty-defaultIcon: url(theme:Dark_Studio/sources/default.svg);
-    qproperty-audioProcessOutputIcon: url(theme:Dark_Studio/sources/windowaudio.svg);
+    qproperty-imageIcon: url(theme:Dark_Console/sources/image.svg);
+    qproperty-colorIcon: url(theme:Dark_Console/sources/brush.svg);
+    qproperty-slideshowIcon: url(theme:Dark_Console/sources/slideshow.svg);
+    qproperty-audioInputIcon: url(theme:Dark_Console/sources/microphone.svg);
+    qproperty-audioOutputIcon: url(theme:Dark_Console/settings/audio.svg);
+    qproperty-desktopCapIcon: url(theme:Dark_Console/settings/video.svg);
+    qproperty-windowCapIcon: url(theme:Dark_Console/sources/window.svg);
+    qproperty-gameCapIcon: url(theme:Dark_Console/sources/gamepad.svg);
+    qproperty-cameraIcon: url(theme:Dark_Console/sources/camera.svg);
+    qproperty-textIcon: url(theme:Dark_Console/sources/text.svg);
+    qproperty-mediaIcon: url(theme:Dark_Console/sources/media.svg);
+    qproperty-browserIcon: url(theme:Dark_Console/sources/globe.svg);
+    qproperty-groupIcon: url(theme:Dark_Console/sources/group.svg);
+    qproperty-sceneIcon: url(theme:Dark_Console/sources/scene.svg);
+    qproperty-defaultIcon: url(theme:Dark_Console/sources/default.svg);
+    qproperty-audioProcessOutputIcon: url(theme:Dark_Console/sources/windowaudio.svg);
 }
 
 /* Scene Tree Grid Mode */
@@ -2040,7 +2040,7 @@ SceneTree {
 
 /* YouTube Integration */
 OBSYoutubeActions {
-    qproperty-thumbPlaceholder: url(theme:Dark_Studio/sources/image.svg);
+    qproperty-thumbPlaceholder: url(theme:Dark_Console/sources/image.svg);
 }
 
 #ytEventList QLabel {
@@ -2068,7 +2068,7 @@ OBSYoutubeActions {
 /* Calendar Widget */
 QDateTimeEdit::down-arrow {
     qproperty-alignment: AlignTop;
-    image: url(theme:Dark_Studio/down.svg);
+    image: url(theme:Dark_Console/down.svg);
     width: 100%;
 }
 
@@ -2091,7 +2091,7 @@ QCalendarWidget QToolButton {
 }
 
 #qt_calendar_monthbutton::menu-indicator {
-    image: url(theme:Dark_Studio/down.svg);
+    image: url(theme:Dark_Console/down.svg);
     subcontrol-position: right;
     padding-top: var(--padding_small);
     padding-right: var(--padding_base);
@@ -2101,13 +2101,13 @@ QCalendarWidget QToolButton {
 
 QCalendarWidget #qt_calendar_prevmonth {
     padding: var(--padding_small);
-    qproperty-icon: url(theme:Dark_Studio/left.svg);
+    qproperty-icon: url(theme:Dark_Console/left.svg);
     icon-size: var(--icon_base);
 }
 
 QCalendarWidget #qt_calendar_nextmonth {
     padding: var(--padding_small);
-    qproperty-icon: url(theme:Dark_Studio/right.svg);
+    qproperty-icon: url(theme:Dark_Console/right.svg);
     icon-size: var(--icon_base);
 }
 
@@ -2398,7 +2398,7 @@ idian--Row QComboBox::drop-down {
 }
 
 idian--Row QComboBox::down-arrow {
-    image: url(theme:Dark_Studio/collapse.svg);
+    image: url(theme:Dark_Console/collapse.svg);
 }
 
 idian--Row QComboBox QAbstractItemView {
@@ -2447,12 +2447,12 @@ idian--Row > idian--CheckBox::indicator:hover {
 
 idian--Row.hover > idian--CheckBox.row-buddy::indicator:unchecked,
 idian--CheckBox.keyFocus::indicator:unchecked {
-    image: url(theme:Dark_Studio/checkbox_unchecked_focus.svg);
+    image: url(theme:Dark_Console/checkbox_unchecked_focus.svg);
 }
 
 idian--Row idian--CheckBox.keyFocus::indicator,
 idian--Row.hover > idian--CheckBox::indicator {
-    image: url(theme:Dark_Studio/checkbox_checked_focus.svg);
+    image: url(theme:Dark_Console/checkbox_checked_focus.svg);
 }
 
 idian--Row idian--CheckBox.keyFocus::indicator,
@@ -2508,12 +2508,12 @@ idian--ExpandButton::indicator {
     background: var(--grey5);
     border-radius: var(--action_row_collapse_radius);
     padding: var(--padding_large);
-    image: url(theme:Dark_Studio/down.svg);
+    image: url(theme:Dark_Console/down.svg);
     border: var(--highlight_width) solid var(--grey5);
 }
 
 idian--ExpandButton::indicator:checked {
-    image: url(theme:Dark_Studio/up.svg);
+    image: url(theme:Dark_Console/up.svg);
 }
 
 idian--ExpandButton.keyFocus,
